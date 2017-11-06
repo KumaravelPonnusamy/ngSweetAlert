@@ -20,7 +20,7 @@
 }(this, function (angular, swal) {
 	"use strict";
 
-	angular.module('oitozero.ngSweetAlert', [])
+	angular.module('angular.sweetalert', [])
 		.factory('SweetAlert', [ '$rootScope', function ( $rootScope ) {
 			//public methods
 			var self = {
